@@ -4,8 +4,253 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gias Uddin Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .white-shadow{
+            box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+        }
+    </style>
 </head>
-<body>
-    <h1>Hello World</h1>
+<body class="bg-dark text-white">
+    <!-- Navbar Starts-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img width="50px" src="./images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse font-weight-bold" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger">Resume <i class="fa-solid fa-download"></i></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar Ends-->
+
+    <!-- Hero Section Starts-->
+    <section class="hero py-5 my-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-0 col-2"></div>
+                <div class="col-md-4 col-12 align-self-center text-md-left text-center">
+                    <h1 class="text-danger fs-1 fw-bold" >HI</h1>
+                    <h1 class="text-danger fs-1 fw-bold">I'M GIAS UDDIN</h1>
+                    <p class="fw-bold">Web Developer || React Developer || Programmer</p>
+                    <p class="fs-8">I am an enthusiastic JavaScript dev eloper with knowing some framework for the frontend and the backend. I know Basic PHP and MySQL but basically a MERN developer.</p>
+                    <p class="d-flex justify-content-md-start justify-content-center align-items-center ">
+                        <a href=""><i class="fa-brands fa-github fs-3 text-danger"></i></a>  
+                        <a href=""><i class="fa-brands fa-linkedin ms-4 fs-3 text-danger"></i></a>  
+                        <a href=""><i class="fa-brands fa-twitter ms-4 fs-3 text-danger"></i></a>  
+                        <button class="btn btn-danger ms-4">Resume <i class="fa-solid fa-download"></i></button>
+                    </p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <img width="300px" class="mx-auto my-2 d-block" src="./images/gias.jpg" alt="">
+                </div>
+                <div class="col-md-0 col-2"></div>
+
+            </div>  
+        </div>
+    </section>
+    <!-- Hero Section Ends-->
+
+    <!-- Portsolio Section  Starts-->
+    <section>
+        <div class="container">
+            <div class="row mb-5 ">
+                <div class="col-md-12">
+                    <h1 class="text-center">Portfolio</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-0"></div>
+                <div class="col-md-8 col-12 mx-auto">
+                    <div class="row border rounded vertical-card p-2 align-items-center">
+                        <div class="col-md-5 col-12">
+                            <img width="100%" class="mx-auto my-2 d-block rounded" src="./images/Travel-Search.png" alt="">
+                        </div>
+                        <div class="col-md-7 col-12">
+                            <h1 class="text-danger fs-4 fw-bold" >Online University </h1>
+                            <p class="fs-8">This is Travel service Agency website.user can 
+                                login via Facebook sign-in,Google Sign-in and 
+                                also Can Create an New Account for use the 
+                                services.user can Choice the service as he/she 
+                                want.</p>
+                            <p class="fs-8"> User can Choice the perfect vehicle as he/she 
+                                Want
+                                user also can see his/her Current location
+                                Firebase Authentication Used in this Website.
+                                 Uer Can Login via (Google,Facebook,Github)also 
+                                can Create Account.</p>
+                            <p class="d-flex justify-content-md-start justify-content-center align-items-center ">
+                                <span class="badge badge-light">React</span>
+                                <span class="badge badge-light">Firebase</span>
+                                <span class="badge badge-light">HTMl</span>
+                                <span class="badge badge-light">CSS</span>
+                                <span class="badge badge-light">NODE</span>
+
+                            </p>
+                        </div>
+                    </div>  
+                    <div class="row border rounded vertical-card p-2 align-items-center my-2">
+                        <div class="col-md-5 col-12">
+                            <img width="100%" class="mx-auto my-2 d-block rounded" src="./images/Travel-Search.png" alt="">
+                        </div>
+                        <div class="col-md-7 col-12">
+                            <h1 class="text-danger fs-4 fw-bold" >Online University </h1>
+                            <p class="fs-8">This is Travel service Agency website.user can 
+                                login via Facebook sign-in,Google Sign-in and 
+                                also Can Create an New Account for use the 
+                                services.user can Choice the service as he/she 
+                                want.</p>
+                            <p class="fs-8"> User can Choice the perfect vehicle as he/she 
+                                Want
+                                user also can see his/her Current location
+                                Firebase Authentication Used in this Website.
+                                 Uer Can Login via (Google,Facebook,Github)also 
+                                can Create Account.</p>
+                            <p class="d-flex justify-content-md-start justify-content-center align-items-center ">
+                                <span class="badge badge-light">React</span>
+                                <span class="badge badge-light">Firebase</span>
+                                <span class="badge badge-light">HTMl</span>
+                                <span class="badge badge-light">CSS</span>
+                                <span class="badge badge-light">NODE</span>
+
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-2 col-0"></div>
+            </div>
+        </div>        
+    </section>
+    <!-- Portsolio Section  Ends-->
+     <!-- overviewa section -->
+     <section class="overview py-5 my-5">
+        <div class="container">
+            <div class="row align-items-center ">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="expertise ">
+                        <h2>Expertise :</h2>
+                        <p>
+                            <span class="badge badge-light">React</span>
+                            <span class="badge badge-light">JavaScript</span>
+                            <span class="badge badge-light">nodejs</span>
+                            <span class="badge badge-light">Firebase</span>
+                            <br>
+                            <span class="badge badge-light">Express</span>
+                            <span class="badge badge-light">MongoDB</span>
+                            <span class="badge badge-light">Bootstrap</span>
+                            <span class="badge badge-light">HTML</span>
+                            <span class="badge badge-light">CSS</span>
+                        </p>
+                    </div>
+                    <div class="Comfortable ">
+                        <h2>Comfortable :</h2>
+                        <p>
+                            <span class="badge badge-light">SQL</span>
+                            <span class="badge badge-light">REDUX</span>
+                            <span class="badge badge-light">Socket.io</span>
+                            <span class="badge badge-light">AWS</span>
+                            <br>
+                            <span class="badge badge-light">Docker</span>
+                            <span class="badge badge-light">Typescript</span>
+                            <span class="badge badge-light">Nextjs</span>
+                        </p>
+                    </div>
+                    <div class="Familier ">
+                        <h2>Familier :</h2>
+                        <p>
+                            <span class="badge badge-light">C++</span>
+                            <span class="badge badge-light">Python</span>
+                            <span class="badge badge-light">Springboot</span>
+                            <span class="badge badge-light">Networking</span>
+                        </p>
+                    </div>
+                    <div class="tools ">
+                        <h2>Tools :</h2>
+                        <p>
+                            <span class="badge badge-light">VSCode</span>
+                            <span class="badge badge-light">JIRA</span>
+                            <span class="badge badge-light">Trello </span>
+                            <span class="badge badge-light">Git</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2 class=" fs-2 fw-bold text-danger">My Education</h2>
+                    <p>B.Sc in Software Engineering, 
+                        Yunnan University ( Kunming,Yunnan,China )</p>
+                        <p>2018-2022</p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- overviewa section -->
+    <!-- contact section -->
+    <section class="contact py-5 my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h2 class=" fs-2 fw-bold text-white text-center my-4">Contact With Me</h2>
+                    <div class="my-2">
+                        <form action="" class="p-3 shadow-lg rounded white-shadow">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Please Enter Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="name" placeholder="Please Enter Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="" id="" class="form-control" placeholder="Please Enter Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-danger d-block w-100">Send</button>
+                        </form> 
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->    
+     <!-- footer section -->
+     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">Copyright © 2025 |  Gias Uddin</p>
+                    <p class="text-center">kunming , yunnan , china</p>
+                    <p class="text-center">
+                        <a href=""><i class="fa-brands fa-github fs-3 text-danger"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin ms-4 fs-3 text-danger"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube ms-4 fs-3 text-danger"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+     </footer>
+    <!-- footer section --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
